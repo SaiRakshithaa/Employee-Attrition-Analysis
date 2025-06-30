@@ -38,7 +38,7 @@ pip install pandas matplotlib seaborn scipy numpy scikit-learn statsmodels
 **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/Employee-Attrition-Analysis.git
+git clone https://github.com/SaiRakshithaa/Employee-Attrition-Analysis.git
 cd Employee-Attrition-Analysis
 ```
 
