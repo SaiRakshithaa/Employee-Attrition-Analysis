@@ -1,0 +1,17 @@
+Inferences from Visualizations:
+1. The bar graph shows that approximately 16.12% of employees (237 out of 1470) left the company (Attrition = Yes), indicating a significant minority experiencing attrition.
+2. The boxplot indicates that employees who left have a lower median age (~33 years) compared to those who stayed (~37 years), suggesting younger employees are more prone to attrition.
+3. Employees who left have a lower median monthly income (~$4,900) compared to those who stayed (~$6,500), indicating income disparities may influence retention.
+4. The median distance from home for employees who left is slightly higher (~10 miles) than for those who stayed (~8 miles), suggesting longer commutes may contribute to attrition.
+5. Employees who travel frequently have a higher attrition rate (~24.6% for frequent travelers vs. 14.8% for non-travelers), suggesting frequent business travel is a risk factor.
+6. The pie chart shows that Sales accounts for ~42% of attrition cases, followed by Human Resources (~26%) and Research & Development (~32%).
+7. The countplot confirms higher attrition rates in Sales (~20.6%) compared to Research & Development (~13.8%).
+8. Sales Representatives have the highest attrition rate (~40%), while Research Directors have the lowest (~2.5%), indicating role-specific factors influence turnover.
+9. Employees with a Bachelor's degree have the highest attrition rate (~17.5%), while those with a Doctorate have the lowest (~5.6%).
+10. Males have a slightly higher attrition rate (~17.1%) compared to females (~14.9%).
+11. Single employees have the highest attrition rate (~25.1%), followed by married (~12.3%) and divorced (~10.2%) employees.
+12. The pairplot shows that employees with lower total working years (median: ~7 years) and years at the company (median: ~3 years) are more likely to leave, with a cluster of leavers having monthly incomes below $5,000.
+13. The heatmap shows TotalWorkingYears (-0.17), Age (-0.16), and YearsAtCompany (-0.13) have the strongest negative correlations with attrition.
+14. Histograms show Age and MonthlyIncome are roughly normal, while DistanceFromHome and YearsSinceLastPromotion are right-skewed, affecting statistical test choices.
+15. The Random Forest feature importance plot highlights TotalWorkingYears (~0.15), MonthlyIncome (~0.12), and Age (~0.10) as key predictors of attrition.
+16. The decision tree (accuracy: 85.56%) splits primarily on TotalWorkingYears and MonthlyIncome, confirming their importance.

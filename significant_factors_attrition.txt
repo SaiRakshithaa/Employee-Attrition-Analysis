@@ -1,0 +1,27 @@
+Significant Factors Contributing to Attrition (p < 0.05):
+Categorical - BusinessTravel: Chi2 p-value = 0.0000
+Categorical - Department: Chi2 p-value = 0.0000
+Categorical - EducationField: Chi2 p-value = 0.0000
+Categorical - JobRole: Chi2 p-value = 0.0015
+Categorical - MaritalStatus: Chi2 p-value = 0.0000
+Numerical - Age: Mann-Whitney U p-value = 0.0000
+Numerical - PercentSalaryHike: Mann-Whitney U p-value = 0.0373
+Numerical - TotalWorkingYears: Mann-Whitney U p-value = 0.0000
+Numerical - TrainingTimesLastYear: Mann-Whitney U p-value = 0.0103
+Numerical - YearsAtCompany: Mann-Whitney U p-value = 0.0000
+Numerical - YearsSinceLastPromotion: Mann-Whitney U p-value = 0.0004
+Numerical - YearsWithCurrManager: Mann-Whitney U p-value = 0.0000
+
+Recommendations to Reduce Attrition:
+For BusinessTravel, prioritize support for 'Travel_Frequently' employees (attrition rate: 24.91%) over 'Non-Travel' (attrition rate: 8.00%). Reduce travel or provide travel benefits for frequent travelers.
+For Department, prioritize support for 'Human Resources' employees (attrition rate: 30.16%) over 'Sales' (attrition rate: 15.02%).
+For EducationField, prioritize support for 'Human Resources' employees (attrition rate: 40.74%) over 'Technical Degree' (attrition rate: 11.36%).
+For JobRole, prioritize support for 'Research Director' employees (attrition rate: 23.75%) over 'Manufacturing Director' (attrition rate: 11.03%). Address role-specific issues (workload, resources).
+For MaritalStatus, prioritize support for 'Single' employees (attrition rate: 25.53%) over 'Divorced' (attrition rate: 10.09%). Offer targeted benefits for high-risk groups.
+Younger employees (Attrition=Yes median: 32.00, Attrition=No median: 36.00) are more likely to leave. 
+No clear action needed for PercentSalaryHike (Attrition=Yes median: 14.00, Attrition=No median: 14.00), as higher values are associated with attrition.
+Retain employees with lower TotalWorkingYears (Attrition=Yes median: 7.00, Attrition=No median: 10.00) through onboarding, loyalty bonuses, or stronger manager relationships.
+No clear action needed for TrainingTimesLastYear (Attrition=Yes median: 3.00, Attrition=No median: 3.00), as more training is associated with attrition.
+Retain employees with lower YearsAtCompany (Attrition=Yes median: 3.00, Attrition=No median: 6.00) through onboarding, loyalty bonuses, or stronger manager relationships.
+No clear action needed for YearsSinceLastPromotion (Attrition=Yes median: 1.00, Attrition=No median: 1.00), as recent promotions are associated with attrition.
+Retain employees with lower YearsWithCurrManager (Attrition=Yes median: 2.00, Attrition=No median: 3.00) through onboarding, loyalty bonuses, or stronger manager relationships.
